@@ -10,6 +10,8 @@
 /storage/debugbar
 /vendor
 /.idea
+/resources/assets/js/env.js
+/resources/assets/sass/base/_env.scss
 _ide_helper.php
 Homestead.json
 Homestead.yaml

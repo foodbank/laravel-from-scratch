@@ -1,0 +1,9 @@
+/**
+* CDN url source string output method
+* $baseUrl: https://cdn.foodbank.io
+* $cdnFolder: public
+* $path: /images/foodbank.png
+*/
+@function cdn($path) {
+    @return $baseUrl + '/' + $cdnFolder + $path;
+}

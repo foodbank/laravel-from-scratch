@@ -181,6 +181,8 @@ return [
          * Laravel Debugbar
         */
         Barryvdh\Debugbar\ServiceProvider::class,
+        // CDN Providers
+        Vinelab\Cdn\CdnServiceProvider::class,
 
     ],
 

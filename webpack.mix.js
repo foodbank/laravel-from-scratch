@@ -1,4 +1,8 @@
 const { mix } = require('laravel-mix');
+const env = require('./resources/assets/js/env-builder');
+
+// Build javascript and sess environment files
+env.build();
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +16,6 @@ const { mix } = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+    .sass('resources/assets/sass/app.scss', 'public/css')
+    .copy('resources/assets/images', 'public/images', false)
+    .version();
