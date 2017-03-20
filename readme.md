@@ -7,12 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Required
+# Required
 
 * Install [.dotfile](https://github.com/foodbank/.dotfiles)
 
-## How to install
+# How to initial Project
 
 * git clone git@github.com:foodbank/bootcamp-project.git
 * cd bootcamp-project
-* composer build
+* composer {develop|production}
+
+# migration database
+
+* composer build-db
